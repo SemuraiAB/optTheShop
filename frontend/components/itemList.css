@@ -1,0 +1,84 @@
+/* itemList.css */
+
+/* Styles for cells with text that should not overflow */
+.text-overflow {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Styling for the spinner when alt text is updating */
+.updating-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button block stack styling for action buttons */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Adjust gap as needed */
+}
+
+.modal-content {
+  padding: 24px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.modal-text {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Enhancing buttons inside the modal */
+.modal-button {
+  background-color: #5c6ac4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-button:hover {
+  background-color: #404e9a;
+}
+
+.modal-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Input field styling */
+.inputField {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #c4cdd5; /* Polaris border color */
+  width: 100%;
+}
+
+/* Focus state styling */
+.inputField:focus {
+  border-color: #5c6ac4; /* Polaris blue border */
+  box-shadow: 0 0 0 1px #5c6ac4;
+}

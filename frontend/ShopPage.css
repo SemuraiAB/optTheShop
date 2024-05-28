@@ -1,0 +1,33 @@
+/* Spinner container */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Product list card */
+.products-list {
+  flex-wrap: nowrap !important;
+}
+
+/* Product image styling */
+.product-image {
+  width: 75px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Action buttons styling */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-content-wrapper {
+  width: 90vw; /* Adjust this value as needed */
+  max-width: 1200px; /* Set a maximum width */
+  margin: 0 auto; /* Center the content */
+  padding: 20px; /* Optional: Add padding if needed */
+}

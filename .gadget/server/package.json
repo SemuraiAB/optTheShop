@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@fastify/request-context": "^5.0.0",
+    "@gadget-client/opt-the-shop": "link:../client",
+    "@gadgetinc/api-client-core": "0.15.22",
+    "@types/node": "^20.8.4",
+    "fastify": "^4.24.2"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./types/index.d.ts"
+    },
+    "./ai": {
+      "require": "./dist/ai/index.js",
+      "types": "./types/ai/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "gadget": {
+    "applicationName": "opt-the-shop",
+    "environmentName": "Development",
+    "environmentVersion": "13200"
+  },
+  "name": "gadget-server",
+  "peerDependencies": {
+    "shopify-api-node": "*"
+  },
+  "private": true,
+  "scripts": {},
+  "types": "types/index.d.ts",
+  "version": "1.1.0-development.13200"
+}

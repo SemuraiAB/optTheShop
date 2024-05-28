@@ -1,0 +1,12 @@
+{
+  "application": "opt-the-shop",
+  "environment": "development",
+  "environments": {
+    "development": {
+      "filesVersion": "13457"
+    }
+  },
+  "app": "opt-the-shop",
+  "filesVersion": "13457",
+  "mtime": 1715789575404
+}
